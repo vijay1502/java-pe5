@@ -1,0 +1,5 @@
+
+Zsquid:UselessImportCheck"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8³ø­€Â-
+Msquid:S1481"*Remove this unused "count" local variable.(šüñÔøÿÿÿÿ8ËŸ¼€Â-
+Msquid:S00108")Either remove or fill this block of code.(Ë­şæùÿÿÿÿ8·ı¼€Â-
+squid:S1319"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(óæ—¡şÿÿÿÿ8ã »€Â-

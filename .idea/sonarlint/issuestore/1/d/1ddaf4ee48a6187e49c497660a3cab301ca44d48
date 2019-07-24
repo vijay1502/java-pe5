@@ -1,0 +1,6 @@
+
+¤%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(«¤ÜÕ8”¼ÔÿÁ-
+csquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(‚ëô¡þÿÿÿÿ
+wsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(þ°ë¡8¥†ÜÿÁ-
+|squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‹„å±üÿÿÿÿ8¥†ÜÿÁ-
+^squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(«¤ÜÕ
