@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66e75191-3df9-4ac0-984d-a8234e06046d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/pe5/WordRepeatCountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/pe5/WordReplacerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/pe5/WordRepeatCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/pe5/WordRepeatCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/pe5/WordReplacer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/pe5/WordReplacer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe5/WordRepeatCount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="125">
+              <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,13 +52,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe5/WordRepeatCountTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+            <state relative-caret-position="170">
+              <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
               <folding>
                 <element signature="e#556#572#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe5/WordReplacer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe5/WordReplacerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+              <folding>
+                <element signature="e#568#584#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,8 +155,10 @@
         <option value="$PROJECT_DIR$/src/test/java/com/stackroute/pe5/AlphabetSortTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/pe5/KeyCounter.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/stackroute/pe5/KeyCounterTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/pe5/WordRepeatCount.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/stackroute/pe5/WordRepeatCountTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/pe5/WordReplacer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/pe5/WordRepeatCount.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/stackroute/pe5/WordReplacerTest.java" />
       </list>
     </option>
   </component>
@@ -156,6 +180,11 @@
             <path>
               <item name="java-pe-5" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-pe-5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-pe-5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-pe-5" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-pe-5" type="b2602c69:ProjectViewProjectNode" />
@@ -218,6 +247,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -242,7 +272,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WordRepeatCountTest.givenAStringShouldReturnCountOfEachWordThroughMap">
+  <component name="RunManager" selected="JUnit.WordReplacerTest.givenAStringMapShouldReurnShouldReturnCountOfWords">
     <configuration name="KeyCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.stackroute.pe5.KeyCounter" />
       <module name="java-pe-5" />
@@ -265,22 +295,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlphabetSortTest.givenASetOfStringShouldReturnSortedOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-pe-5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.stackroute.pe5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.stackroute.pe5" />
-      <option name="MAIN_CLASS_NAME" value="com.stackroute.pe5.AlphabetSortTest" />
-      <option name="METHOD_NAME" value="givenASetOfStringShouldReturnSortedOrder" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -332,21 +346,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WordReplacerTest.givenAStringMapShouldReurnShouldReturnCountOfWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-pe-5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stackroute.pe5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stackroute.pe5" />
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.pe5.WordReplacerTest" />
+      <option name="METHOD_NAME" value="givenAStringMapShouldReurnShouldReturnCountOfWords" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.ReplaceArrayElementTest" />
       <item itemvalue="Application.KeyCounter" />
       <item itemvalue="JUnit.KeyCounterTest.givenAStringArrayShoyldReturnMapWithStringAndBooleanPair" />
-      <item itemvalue="JUnit.AlphabetSortTest.givenASetOfStringShouldReturnSortedOrder" />
       <item itemvalue="Application.WordRepeatCount" />
       <item itemvalue="JUnit.WordRepeatCountTest.givenAStringShouldReturnCountOfEachWordThroughMap" />
+      <item itemvalue="JUnit.WordReplacerTest.givenAStringMapShouldReurnShouldReturnCountOfWords" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WordReplacerTest.givenAStringMapShouldReurnShouldReturnCountOfWords" />
         <item itemvalue="JUnit.WordRepeatCountTest.givenAStringShouldReturnCountOfEachWordThroughMap" />
         <item itemvalue="Application.WordRepeatCount" />
         <item itemvalue="JUnit.KeyCounterTest.givenAStringArrayShoyldReturnMapWithStringAndBooleanPair" />
         <item itemvalue="Application.KeyCounter" />
-        <item itemvalue="JUnit.AlphabetSortTest.givenASetOfStringShouldReturnSortedOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -361,24 +391,17 @@
       <option name="presentableId" value="Default" />
       <updated>1563903804802</updated>
     </task>
+    <task id="LOCAL-00001" summary="WordRepeatCount method and test are completed">
+      <created>1563956971858</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563956971858</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AlphabetSortTest - 2019.07.24 at 10h 55m 08s.xml">
-      <configuration name="AlphabetSortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AlphabetSortTest_givenASetOfStringShouldReturnSortedOrder - 2019.07.24 at 10h 55m 46s.xml">
-      <configuration name="AlphabetSortTest.givenASetOfStringShouldReturnSortedOrder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AlphabetSortTest_givenASetOfStringShouldReturnSortedOrder - 2019.07.24 at 10h 56m 03s.xml">
-      <configuration name="AlphabetSortTest.givenASetOfStringShouldReturnSortedOrder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AlphabetSortTest_givenASetOfStringShouldReturnSortedOrder - 2019.07.24 at 11h 01m 02s.xml">
-      <configuration name="AlphabetSortTest.givenASetOfStringShouldReturnSortedOrder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AlphabetSortTest_givenASetOfStringShouldReturnSortedOrder - 2019.07.24 at 11h 06m 12s.xml">
-      <configuration name="AlphabetSortTest.givenASetOfStringShouldReturnSortedOrder" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AlphabetSortTest_givenASetOfStringShouldReturnSortedOrder - 2019.07.24 at 11h 07m 43s.xml">
       <configuration name="AlphabetSortTest.givenASetOfStringShouldReturnSortedOrder" configurationId="JUnit" />
     </history-entry>
@@ -394,12 +417,27 @@
     <history-entry file="KeyCounterTest_givenAStringArrayShoyldReturnMapWithStringAndBooleanPair - 2019.07.24 at 11h 53m 38s.xml">
       <configuration name="KeyCounterTest.givenAStringArrayShoyldReturnMapWithStringAndBooleanPair" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WordRepeatCountTest_givenAStringShouldReturnCountOfEachWordThroughMap - 2019.07.24 at 13h 57m 33s.xml">
+      <configuration name="WordRepeatCountTest.givenAStringShouldReturnCountOfEachWordThroughMap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordRepeatCountTest_givenAStringShouldReturnCountOfEachWordThroughMap - 2019.07.24 at 14h 20m 49s.xml">
+      <configuration name="WordRepeatCountTest.givenAStringShouldReturnCountOfEachWordThroughMap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordRepeatCountTest_givenAStringShouldReturnCountOfEachWordThroughMap - 2019.07.24 at 14h 22m 28s.xml">
+      <configuration name="WordRepeatCountTest.givenAStringShouldReturnCountOfEachWordThroughMap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordReplacerTest_givenAStringMapShouldReurnShouldReturnCountOfWords - 2019.07.24 at 14h 28m 42s.xml">
+      <configuration name="WordReplacerTest.givenAStringMapShouldReurnShouldReturnCountOfWords" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordReplacerTest_givenAStringMapShouldReurnShouldReturnCountOfWords - 2019.07.24 at 14h 29m 06s.xml">
+      <configuration name="WordReplacerTest.givenAStringMapShouldReurnShouldReturnCountOfWords" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="27" width="1296" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -408,7 +446,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3305785" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3305785" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3970346" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -427,6 +465,10 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="WordRepeatCount method and test are completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="WordRepeatCount method and test are completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -470,6 +512,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/stackroute/pe5/WordReplacerTest.java</url>
+          <line>23</line>
+          <properties class="com.stackroute.pe5.WordReplacerTest" method="givenAStringMapShouldReurnShouldReturnCountOfWords">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -537,8 +587,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe5/WordRepeatCount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="125">
+          <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -547,10 +597,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe5/WordRepeatCountTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+        <state relative-caret-position="170">
+          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
           <folding>
             <element signature="e#556#572#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe5/WordReplacer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe5/WordReplacerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+          <folding>
+            <element signature="e#568#584#0" expanded="true" />
           </folding>
         </state>
       </provider>

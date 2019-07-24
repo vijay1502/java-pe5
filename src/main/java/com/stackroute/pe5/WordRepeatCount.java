@@ -12,7 +12,7 @@ public class WordRepeatCount {
         Map<String, Integer> map = new HashMap<>();
         for (String word : stringList) {
             if (map.containsKey(word)) {
-                map.replace(word, map.get(word) + 1);
+                map.replace(word, map.get(word) + 1);//map.get will return
             } else {
                 map.put(word, 1);
             }
