@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66e75191-3df9-4ac0-984d-a8234e06046d" name="Default Changelist" comment="" />
+    <list default="true" id="66e75191-3df9-4ac0-984d-a8234e06046d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/pe5/WordRepeatCountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/pe5/WordRepeatCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/pe5/WordRepeatCount.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +18,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe5/ReplaceArrayElement.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -38,8 +42,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe5/WordRepeatCount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="260">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe5/WordRepeatCountTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+              <folding>
+                <element signature="e#556#572#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,8 +116,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -115,6 +134,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/pe5/KeyCounter.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/stackroute/pe5/KeyCounterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/pe5/WordRepeatCount.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/stackroute/pe5/WordRepeatCountTest.java" />
       </list>
     </option>
   </component>
@@ -222,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.KeyCounterTest.givenAStringArrayShoyldReturnMapWithStringAndBooleanPair">
+  <component name="RunManager" selected="JUnit.WordRepeatCountTest.givenAStringShouldReturnCountOfEachWordThroughMap">
     <configuration name="KeyCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.stackroute.pe5.KeyCounter" />
       <module name="java-pe-5" />
@@ -236,17 +256,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="java-pe-5" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlphabetSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WordRepeatCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.pe5.WordRepeatCount" />
       <module name="java-pe-5" />
       <extension name="coverage">
         <pattern>
@@ -254,9 +265,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.stackroute.pe5" />
-      <option name="MAIN_CLASS_NAME" value="com.stackroute.pe5.AlphabetSortTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -308,20 +316,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WordRepeatCountTest.givenAStringShouldReturnCountOfEachWordThroughMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-pe-5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stackroute.pe5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stackroute.pe5" />
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.pe5.WordRepeatCountTest" />
+      <option name="METHOD_NAME" value="givenAStringShouldReturnCountOfEachWordThroughMap" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.ReplaceArrayElementTest" />
       <item itemvalue="Application.KeyCounter" />
       <item itemvalue="JUnit.KeyCounterTest.givenAStringArrayShoyldReturnMapWithStringAndBooleanPair" />
-      <item itemvalue="JUnit.AlphabetSortTest" />
       <item itemvalue="JUnit.AlphabetSortTest.givenASetOfStringShouldReturnSortedOrder" />
+      <item itemvalue="Application.WordRepeatCount" />
+      <item itemvalue="JUnit.WordRepeatCountTest.givenAStringShouldReturnCountOfEachWordThroughMap" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WordRepeatCountTest.givenAStringShouldReturnCountOfEachWordThroughMap" />
+        <item itemvalue="Application.WordRepeatCount" />
         <item itemvalue="JUnit.KeyCounterTest.givenAStringArrayShoyldReturnMapWithStringAndBooleanPair" />
         <item itemvalue="Application.KeyCounter" />
         <item itemvalue="JUnit.AlphabetSortTest.givenASetOfStringShouldReturnSortedOrder" />
-        <item itemvalue="JUnit.AlphabetSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -424,6 +449,12 @@
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/stackroute/pe5/WordRepeatCount.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/stackroute/pe5/AlphabetSortTest.java</url>
           <line>24</line>
@@ -431,6 +462,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/stackroute/pe5/WordRepeatCount.java</url>
+          <line>8</line>
+          <properties class="com.stackroute.pe5.WordRepeatCount" method="checkFrequency">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -449,13 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe5/KeyCounterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe5/AlphabetSortTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
@@ -464,23 +496,6 @@
             <element signature="e#582#590#0" expanded="true" />
             <element signature="e#784#792#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe5/KeyCounter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe5/WordRepeatCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -500,6 +515,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe5/KeyCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe5/KeyCounterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe5/WordRepeatCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe5/WordRepeatCountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+          <folding>
+            <element signature="e#556#572#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
